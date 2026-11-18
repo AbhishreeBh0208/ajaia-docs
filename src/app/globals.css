@@ -24,3 +24,168 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Ajaia Docs - TipTap editor formatting */
+
+.tiptap {
+  outline: none;
+  color: #1f2937;
+  line-height: 1.8;
+}
+
+.tiptap p {
+  margin: 0.75rem 0;
+}
+
+.tiptap h1 {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 1.5rem 0 1rem;
+  color: #111827;
+}
+
+.tiptap h2 {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 650;
+  line-height: 1.35;
+  margin: 1.25rem 0 0.75rem;
+  color: #111827;
+}
+
+.tiptap ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  margin: 1rem 0;
+}
+
+.tiptap ol {
+  list-style-type: decimal;
+  padding-left: 2rem;
+  margin: 1rem 0;
+}
+
+.tiptap li {
+  display: list-item;
+  padding-left: 0.25rem;
+  margin: 0.25rem 0;
+}
+
+.tiptap li p {
+  margin: 0.25rem 0;
+}
+
+.tiptap ul ul {
+  list-style-type: circle;
+}
+
+.tiptap ol ol {
+  list-style-type: lower-alpha;
+}
+
+.tiptap strong {
+  font-weight: 700;
+}
+
+.tiptap em {
+  font-style: italic;
+}
+
+.tiptap u {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.tiptap p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #9ca3af;
+  pointer-events: none;
+  height: 0;
+}
+
+
+/* =========================================
+   AJAIA DOCS - TIPTAP EDITOR STYLES
+========================================= */
+
+.tiptap {
+  outline: none;
+  color: #1f2937;
+  font-size: 16px;
+  line-height: 1.75;
+  min-height: 650px;
+}
+
+.tiptap p {
+  display: block;
+  margin: 12px 0;
+}
+
+.tiptap h1 {
+  display: block !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  margin: 24px 0 16px !important;
+  color: #111827;
+}
+
+.tiptap h2 {
+  display: block !important;
+  font-size: 24px !important;
+  font-weight: 650 !important;
+  line-height: 1.35 !important;
+  margin: 20px 0 12px !important;
+  color: #111827;
+}
+
+.tiptap ul {
+  display: block !important;
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  padding-left: 32px !important;
+  margin: 16px 0 !important;
+}
+
+.tiptap ol {
+  display: block !important;
+  list-style-type: decimal !important;
+  list-style-position: outside !important;
+  padding-left: 32px !important;
+  margin: 16px 0 !important;
+}
+
+.tiptap li {
+  display: list-item !important;
+  margin: 6px 0 !important;
+  padding-left: 4px !important;
+}
+
+.tiptap li p {
+  margin: 4px 0 !important;
+}
+
+.tiptap ul ul {
+  list-style-type: circle !important;
+}
+
+.tiptap ol ol {
+  list-style-type: lower-alpha !important;
+}
+
+.tiptap strong {
+  font-weight: 700;
+}
+
+.tiptap em {
+  font-style: italic;
+}
+
+.tiptap u {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
